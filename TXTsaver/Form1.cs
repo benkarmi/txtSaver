@@ -20,6 +20,7 @@ namespace TXTsaver
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //Test
             openFileDialog1.Filter = "Text files | *.txt";
             openFileDialog1.Multiselect = false;
             if (openFileDialog1.ShowDialog() != DialogResult.OK) return;
